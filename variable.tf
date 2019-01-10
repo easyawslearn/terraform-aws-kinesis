@@ -36,11 +36,11 @@ variable "s3_bucket_path" {
 }
 
 variable "storage_input_format" {
-  description = "Length of time data records are accessible after they are added to the stream."
+  description = "storage input format for aws glue for parcing data"
   default     = ""
 }
 
 variable "storage_output_format" {
-  description = "Length of time data records are accessible after they are added to the stream."
+  description = "storage output format for aws glue for parcing data"
   default     = ""
 }
