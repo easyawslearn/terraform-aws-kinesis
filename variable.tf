@@ -26,12 +26,12 @@ variable "shard_level_metrics" {
 }
 
 variable "s3_bucket_arn" {
-  description = "Length of time data records are accessible after they are added to the stream."
+  description = "s3 bucket arn where kinesis firehose put data."
   default     = "arn:aws:s3:::*"
 }
 
 variable "s3_bucket_path" {
-  description = "Length of time data records are accessible after they are added to the stream."
+  description = "s3 bucket path where kinesis firehose put data."
   default     = "s3://mybucket/test"
 }
 
