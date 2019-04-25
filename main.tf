@@ -1,5 +1,7 @@
 provider "aws" {
   region = "${var.region}"
+  version = "~> 1.0"
+
 }
 
 data "aws_kms_alias" "kms_encryption" {
