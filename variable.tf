@@ -27,12 +27,12 @@ variable "shard_level_metrics" {
 
 variable "s3_bucket_arn" {
   description = "s3 bucket arn where kinesis firehose put data."
-  default     = "test"
+  default     = ""
 }
 
 variable "s3_bucket_path" {
   description = "s3 bucket path where kinesis firehose put data."
-  default     = "test"
+  default     = ""
 }
 
 variable "storage_input_format" {
